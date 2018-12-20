@@ -1,0 +1,17 @@
+{
+  "name": "debug-invalid-elf-header",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "bash ./deps.sh",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rpio": "^1.0.11"
+  }
+}
